@@ -15,7 +15,7 @@ elif BMI >= 18.5 and BMI <= 24.9:
     print ("Your BMI is:" , str (round (BMI,2)) + ". You are a Healthy weight")
 
 elif BMI >= 25.0 :
-    print ("Your BMI is:" , str (round (BMI)) + ". You are Overweight")
+    print ("Your BMI is:" , str (round (BMI,2)) + ". You are Overweight")
 
 else:
     print ("Your BMI is:" , round (BMI,2))
