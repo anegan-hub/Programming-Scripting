@@ -1,2 +1,2 @@
-# BMI-Calculation-
-Programming &amp; Scripting Task ( calculate a person's BMI ( Kg/m2 ))
+# Programming and Scripting Tasks 2020
+# Learning to write codes 
