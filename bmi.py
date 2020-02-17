@@ -1,3 +1,4 @@
+# Andrea Egan - Task 2
 # This program calculates a person's Body Mass Index (BMI)
 
 weight = float(input("Enter Weight in Kilograms: "))
