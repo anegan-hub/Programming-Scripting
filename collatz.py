@@ -1,4 +1,4 @@
-# Andrea Egan
+# Andrea Egan - Task 4
 # This program askes a user to input a positive intergar 
 # The intergar is divided by 2 
 # If that intergar is even divide again by 2
