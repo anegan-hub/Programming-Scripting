@@ -18,4 +18,9 @@ elif BMI >= 25.0 :
     print ("Your BMI is:" , str (round (BMI,2)) + ". You are Overweight")
 
 else:
-    print ("Your BMI is:" , round (BMI,2))
+    print ("Please try again")
+
+# Referenced: https://stackoverflow.com/questions/20405610/bmi-calculator-in-python/20405792
+
+
+
