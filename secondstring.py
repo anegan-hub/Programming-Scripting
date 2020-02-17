@@ -1,3 +1,4 @@
+# Andrea Egan - Task 3
 # This programme will ask the user to input a string.
 # The output is every second character in reverse order.
 
