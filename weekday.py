@@ -3,31 +3,35 @@
 # whether or not today is a weekday.
 
 import datetime
-import calendar
 
-
-DT = datetime.datetime.today()
-
-print ("Today's Date: " , DT)
+DT = datetime.datetime.now() # Naive
+ 
+#print ("Today's Date: " , DT)
 
 DT.day
-print(DT.day) # returns the day (int)
+#print(DT.day) # returns the day (int)
 
 DT.month      
-print(DT.month) # returns the month (int)
+#print (DT.month) # returns the month (int)
 
-DT.weekday() 
-print(DT.weekday()) # returns the day of the week (0 = Monday)
+DT.year
+#print (DT.year) # returns the year (int)
 
+DT.isoweekday() 
+#print(DT.isoweekday()) # returns the day of the week (1 = Monday) 
 
+#print (DT.day , DT. month , DT. year ,)
 
+dt1 = (DT.day , DT. month , DT. year )
+#print ( " Today's Date: " , dt1)
 
+Wd = (DT.isoweekday())
 
-
-
-
-
-
+if Wd <= 5 :
+    print (" Yes, unfortunaly today is a weekday")
+else:
+    print ("It is the weekend, yay!")
+    
 
 
 
