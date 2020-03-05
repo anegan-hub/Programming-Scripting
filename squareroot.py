@@ -1,8 +1,10 @@
 # Andrea Egan Task 6
-# This program will calculate the squareroot of a positive number
+# This program includes the creation of a function
+# to calculate the square root of a positive number
 
-P = float(input("Please input a positive number:"))
+def sqrt (x):
+    return(x * x)
 
-X = (P * P)
+x = float(input("Please input a positive number: "))
 
-print ("the squareroot of" ,  P , "is" , X )
+print ("the squareroot of" , x , "is" , sqrt(x) )
