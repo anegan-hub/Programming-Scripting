@@ -1,10 +1,9 @@
 # Andrea Egan Task 6
 # This program calculates the approximate square root of a positive number
-# using a function based on Newtons method 
+# By creating a function called 'sqrt'
 
 def sqrt (x): # creation of the function 'sqrt'
     y = 0 
-    
     while x > y: # while the input is greater than zero
         est2 = (x**.5)
         est = est2
