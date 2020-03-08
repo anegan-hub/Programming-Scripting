@@ -3,7 +3,6 @@
 # using a function based on Newtons method 
 
 def sqrt (x): # creation of the function 'sqrt'
-    est = x # estimated guess 
     y = 0 
     
     while x > y: # while the input is greater than zero
