@@ -6,14 +6,14 @@ def sqrt (x): # creation of the function 'sqrt'
     y = 0 
     while x > y: # while the input is greater than zero
         est2 = (x**.5)
-        est = est2
-        return est
+        est =  round (est2, 1)
+        return est 
 
 x = float(input("Please input a positive number: "))
 
-print ("the squareroot of" , x , "is approx" , sqrt (x))
+print ("the squareroot of" , x , "is approx",  sqrt (x))
 
 # Reference https://www.youtube.com/watch?v=tUFzOLDuvaE
-# https://www.oreilly.com/programming/free/files/a-whirlwind-tour-of-python.pdf
-# https://en.wikipedia.org/wiki/Square_root
-# https://www.youtube.com/watch?v=UGac_KqFrn0
+# Reference https://www.oreilly.com/programming/free/files/a-whirlwind-tour-of-python.pdf
+# Reference https://en.wikipedia.org/wiki/Square_root
+# Reference https://www.youtube.com/watch?v=UGac_KqFrn0
