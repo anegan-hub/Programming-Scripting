@@ -12,7 +12,7 @@ BMI = weight / ((height / 100)**2)
 if BMI <= 18.5:
     print ("Your BMI is:" , str (round (BMI,2)) + ". You are Underweight")
 
-elif BMI >= 18.5 and BMI <= 24.9:
+elif BMI <= 24.9:
     print ("Your BMI is:" , str (round (BMI,2)) + ". You are a Healthy weight")
 
 elif BMI >= 25.0 :
@@ -22,6 +22,3 @@ else:
     print ("Please try again")
 
 # Referenced: https://stackoverflow.com/questions/20405610/bmi-calculator-in-python/20405792
-
-
-
