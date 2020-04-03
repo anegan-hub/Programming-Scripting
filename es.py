@@ -23,5 +23,5 @@ print (y)
 
 # Reference: https://realpython.com/python-command-line-arguments/#the-sysargv-array
 #          : https://stackoverflow.com/questions/7439145/i-want-to-read-in-a-file-from-the-command-line-in-python/7439162 
-#          : https://www.tutorialspoint.com/python/python_command_line_arguments.htm 
-#          : https://jakevdp.github.io/WhirlwindTourOfPython/07-control-flow-statements.html
+#          : https://www.tutorialspoint.com/python/python_command_line_arguments.htm  
+#          : https://jakevdp.github.io/WhirlwindTourOfPython
