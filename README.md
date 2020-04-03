@@ -56,7 +56,7 @@ A variable is then created called BMI. The variable takes the inputs and applies
 
 '''
 
-      BMI = weight / ((height / 100)**2) 
+    BMI = weight / ((height / 100)**2) 
 
     
 '''
@@ -132,6 +132,8 @@ Output:
 
 This program askes a user to input a positive intergar. Using the while loop to iterate through the intergar, not equal to 1. The intergar is divided by 2 , If that intergar is even, divide again by 2 but if odd, multiply by 3, plus 1. The program will end if the current integar is 1
 
+Please note the indentations determine the body of the while loop
+
 
 '''
 
@@ -145,7 +147,7 @@ This program askes a user to input a positive intergar. Using the while loop to 
 
 '''
 
-So, the program above is basically stating ' while p is not equal to 1, take the value of p and divid by 2. 
+So, the program above is stating ' while p is not equal to 1, take the value of p and divid by 2'. 
 
 Output: 
 
@@ -161,7 +163,40 @@ Output:
     2
     1
     Report complete
-    
+
+
+'''
+
+
+# weekend.py
+
+This is a program that will output whether or not today is a weekday. To create the program, first you must import "datetime" This module supplies the dates and times.
+
+Depending on how you what to run your program you can incorportate list, tubles and dictionaries. However i created a short program to produce the result i was looking for. 
+
+
+
+'''
+
+    datetime.datetime.now() - # gives date with time in hours, minutes, seconds and milliseconds.
+
+
+    (DT.isoweekday()) - # gives the starting weekday as 1 = monday. 
+
+
+'''
+
+The program using the if and else statement, stats that if the variable days is less then 5 print " " else print " "
+
+
+Output
+
+
+'''
+
+    λ python weekday.py
+
+    Yes unfortunately today is a weekday
 
 '''
 
