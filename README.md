@@ -91,7 +91,7 @@ Variable one
 '''
 
 
-InputString = (input("Enter a sentence here: "))
+    InputString = (input("Enter a sentence here: "))
 
 
 '''
@@ -102,7 +102,7 @@ Variable two - using list indexing and slicing
 '''
 
 
-OutputString =  str. upper (InputString [::-2])
+    OutputString =  str. upper (InputString [::-2])
 
 
 '''
@@ -114,17 +114,15 @@ solely to test the upper function.
 
 Output:
 
-
 '''
 
 
-λ python secondstring.py
+    λ python secondstring.py
 
 
-Enter a sentence here: The quick brown fox jumps over the lazy dog.
+    Enter a sentence here: The quick brown fox jumps over the lazy dog.
 
-
-Every second character; capitalized; in reverse order is: .O ZLETRV PU O WR CU H
+    Every second character; capitalized; in reverse order is: .O ZLETRV PU O WR CU H
 
 
 '''
