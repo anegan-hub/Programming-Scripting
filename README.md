@@ -39,6 +39,7 @@ Two variables are created as inputs; built in function float is used, as the inp
 
 '''
     weight = float(input("Enter Weight in Kilograms: "))
+
     height = float(input("Enter Height in Centimeter "))
 
 '''
@@ -47,14 +48,18 @@ A variable is then created called BMI. The variable takes the inputs and applies
 '''
     BMI = weight / ((height / 100)**2) 
 '''
+
 In addition to this, i included the if, elif, and  else function statements to categorise the result. 
 
 Running the program on the command line you will be asked to input your weight and height. The output would look that this; 
 
 '''
     λ python bmi.py
+
     Enter Weight in Kilograms: 53.5
+
     Enter Height in Centimeters: 162
-Y   our BMI is: 20.39. You are a Healthy weight
+    
+    Your BMI is: 20.39. You are a Healthy weight
 
 '''
