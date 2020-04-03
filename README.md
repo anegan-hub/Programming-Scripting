@@ -200,3 +200,13 @@ Output
 
 '''
 
+
+# squareroot.py 
+
+This program calculates the approximate square root of a positive number by creating a function called 'sqrt'. The formula is based on Newtons Squareroot Method. 
+
+The program runs however thr formula is still a working progress as the result is not returning the correct result. 
+
+Reference https://en.wikipedia.org/wiki/Square_root
+Reference https://www.youtube.com/watch?v=tUFzOLDuvaE
+
