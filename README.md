@@ -32,7 +32,7 @@ The following software and tools were installed
 # Descriptions 
 
 
-# BMI.py
+# bmi.py
 
 
 This program is basesd on statements.
@@ -80,7 +80,7 @@ Running the program on the command line you will be asked to input your weight a
 
 
 '''
-# Secondstring.py
+# secondstring.py
 
 This programme will ask the user to input a string.
 The output is every second character in reverse order.
@@ -119,7 +119,6 @@ Output:
 
     λ python secondstring.py
 
-
     Enter a sentence here: The quick brown fox jumps over the lazy dog.
 
     Every second character; capitalized; in reverse order is: .O ZLETRV PU O WR CU H
@@ -127,4 +126,42 @@ Output:
 
 '''
 
+
+# collatz.py
+
+
+This program askes a user to input a positive intergar. Using the while loop to iterate through the intergar, not equal to 1. The intergar is divided by 2 , If that intergar is even, divide again by 2 but if odd, multiply by 3, plus 1. The program will end if the current integar is 1
+
+
+'''
+
+    While (p != 1):   
+        if int (p % 2) == 0:
+            p =  int (p / 2)
+    else:
+         p =  int ((p * 3) + 1) 
+    print (p)  
+
+
+'''
+
+So, the program above is basically stating ' while p is not equal to 1, take the value of p and divid by 2. 
+
+Output: 
+
+'''
+
+
+    λ python collatz.py
+    Input a positive intergar: 10
+    5
+    16
+    8
+    4
+    2
+    1
+    Report complete
+    
+
+'''
 
