@@ -203,10 +203,60 @@ Output
 
 # squareroot.py 
 
+
 This program calculates the approximate square root of a positive number by creating a function called 'sqrt'. The formula is based on Newtons Squareroot Method. 
 
 The program runs however thr formula is still a working progress as the result is not returning the correct result. 
 
 Reference https://en.wikipedia.org/wiki/Square_root
 Reference https://www.youtube.com/watch?v=tUFzOLDuvaE
+
+
+# es.py 
+
+This program reads in a text file and outputs the number of e's it contains by using a 'for loop'. The program will also take the filename from an argument on the command line.
+To create an argument, you must first import 'sys'. sys is a list of commandline arguments, passed to the python programme.
+
+
+ The function noted below  with open, read and close a file
+
+
+'''
+
+
+    with open ("moby-dick.txt", "r")as f: 
+
+
+'''
+
+
+Argument
+
+
+'''
+
+    if len(sys.argv) == 1:  
+            FileName = (sys.argv[1]) 
+
+'''
+
+
+The program has one argument that calls for the file name to be entered onto the commandline.
+If the file name is not input, the report will not run. An Error message will appear on the commandline in this instance. 
+
+
+For loop 
+
+'''
+
+    for line in f:
+        words = line.split()
+        for i in words:
+            for letter in i:
+                if (letter==x):
+                    y = y + 1
+
+'''
+
+The for loop iterates over the given sequence, Here the program is breaking down the read file 'moby-dick.txt to count the number of 'e' within the file. 
 
