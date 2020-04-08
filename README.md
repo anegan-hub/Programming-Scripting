@@ -4,7 +4,7 @@
 
 # Introduction
 
-This project relates to a programmimg and scripting module I am currently studying. All programs within the project, I have created based on the knowledge and skills I have gained during the semester. The project consist of 7 programs. Programmimg language is; python. 
+This project relates to a programming and scripting module I am currently studying. All programs within the project, I have created based on the knowledge and skills I have gained during the semester. The project consist of 7 programs. Programmimg language is; python. 
 
 # Installations
 
