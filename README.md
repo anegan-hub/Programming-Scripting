@@ -195,7 +195,7 @@ Output:
 
 This program calculates the approximate square root of a positive number by creating a function called 'sqrt'. The formula is based on Newtons Squareroot Method. 
 
-The program runs however thr formula is still a working progress as the result is not returning the correct result. 
+The program runs however the formula is still a working progress as the result is not returning the the answer I what. I have referred to the reference mentioned below to run the program.
 
 Reference https://en.wikipedia.org/wiki/Square_root
 Reference https://www.youtube.com/watch?v=tUFzOLDuvaE
