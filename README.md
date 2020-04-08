@@ -44,30 +44,27 @@ Two variables are created as inputs; built in function float is used, as the inp
 
 
 
-'''
 
     weight = float(input("Enter Weight in Kilograms: "))
 
     height = float(input("Enter Height in Centimeter "))
 
-'''
+
 
 
 A variable is then created called BMI. The variable takes the inputs and applies the calculation.
 
-'''
+
 
     BMI = weight / ((height / 100)**2) 
 
     
-'''
-
 
 In addition to this, i included the if, elif, and  else function statements to categorise the result. 
 
 Running the program on the command line you will be asked to input your weight and height. The output would look that this; 
 
-'''
+
 
 
     λ python bmi.py
@@ -80,7 +77,7 @@ Running the program on the command line you will be asked to input your weight a
 
 
 
-'''
+
 # secondstring.py
 
 This programme will ask the user to input a string.
@@ -89,24 +86,21 @@ The output is every second character in reverse order.
 Variable one
 
 
-'''
 
 
     InputString = (input("Enter a sentence here: "))
 
 
-'''
 
 
 Variable two - using list indexing and slicing 
 
-'''
 
 
     OutputString =  str. upper (InputString [::-2])
 
 
-'''
+
 
 
 The output of letters are in uppercase
@@ -115,7 +109,6 @@ solely to test the upper function.
 
 Output:
 
-'''
 
 
     λ python secondstring.py
@@ -124,8 +117,6 @@ Output:
 
     Every second character; capitalized; in reverse order is: .O ZLETRV PU O WR CU H
 
-
-'''
 
 
 # collatz.py
@@ -136,7 +127,7 @@ This program askes a user to input a positive intergar. Using the while loop to 
 Please note the indentations determine the body of the while loop
 
 
-'''
+
 
     While (p != 1):   
         if int (p % 2) == 0:
@@ -146,13 +137,13 @@ Please note the indentations determine the body of the while loop
     print (p)  
 
 
-'''
 
-So, the program above is stating ' while p is not equal to 1, take the value of p and divid by 2'. 
+
+So, the program above is stating 'while p is not equal to 1, if 2 divides into p evenly, divide again by 2 else P multiply by 3 and add one'.  
 
 Output: 
 
-'''
+
 
 
     λ python collatz.py
@@ -166,7 +157,7 @@ Output:
     Report complete
 
 
-'''
+
 
 
 # weekend.py
@@ -177,29 +168,26 @@ Depending on how you what to run your program you can incorportate list, tubles 
 
 
 
-'''
-
     datetime.datetime.now() - # gives date with time in hours, minutes, seconds and milliseconds.
-
 
     (DT.isoweekday()) - # gives the starting weekday as 1 = monday. 
 
 
-'''
+
 
 The program using the if and else statement, stats that if the variable days is less then 5 print " " else print " "
 
 
-Output
+Output:
 
 
-'''
+
 
     λ python weekday.py
 
     Yes unfortunately today is a weekday
 
-'''
+
 
 
 # squareroot.py 
@@ -222,24 +210,24 @@ To create an argument, you must first import 'sys'. sys is a list of commandline
  The function noted below  with open, read and close a file
 
 
-'''
+
 
 
     with open ("moby-dick.txt", "r")as f: 
 
 
-'''
+
 
 
 Argument
 
 
-'''
+
 
     if len(sys.argv) == 1:  
             FileName = (sys.argv[1]) 
 
-'''
+
 
 
 The program has one argument that calls for the file name to be entered onto the commandline.
@@ -248,7 +236,7 @@ If the file name is not input, the report will not run. An Error message will ap
 
 For loop 
 
-'''
+
 
     for line in f:
         words = line.split()
@@ -257,7 +245,7 @@ For loop
                 if (letter==x):
                     y = y + 1
 
-'''
+
 
 The for loop iterates over the given sequence, Here the program is breaking down the read file 'moby-dick.txt to count the number of 'e' within the file. 
 
@@ -266,19 +254,18 @@ The for loop iterates over the given sequence, Here the program is breaking down
 # ipyton_log.py
 
 
-'''
 
 IPython log file
 
 This program displays a plot of the functions 
 if(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
-This program requires two imports 'numpy' and 'matplotlib.pyplot'
+This program requires two imports 'numpy' and 'matplotlib.pyplot'.
 
 import numpy as np
 
 import matplotlib.pyplot as plt
 
-    x = np.linspace(0, 4,)
+    x = np.linspace(0, 4,) 
 
     g = x **2
 
@@ -298,6 +285,3 @@ plt.xlabel("f(x)=x")
 plt.ylabel("Y")
 
 plt.show()
-
-
-'''
