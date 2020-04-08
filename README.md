@@ -62,7 +62,7 @@ A variable is then created called BMI. The variable takes the inputs and applies
 
 In addition to this, i included the if, elif, and  else function statements to categorise the result. 
 
-Running the program on the command line you will be asked to input your weight and height. The output would look that this; 
+Running the program on the command line you will be asked to input your weight and height. The program would look that this; 
 
 
 
@@ -139,7 +139,7 @@ Please note the indentations determine the body of the while loop
 
 
 
-So, the program above is stating 'while p is not equal to 1, if 2 divides into p evenly, divide again by 2 else P multiply by 3 and add one'.  
+So, the program above is stating 'while p is not equal to 1, if 2 divides into p evenly, divide again by 2 else p multiply by 3 and add one'.  
 
 Output: 
 
