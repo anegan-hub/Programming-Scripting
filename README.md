@@ -249,6 +249,8 @@ For loop
 
 The for loop iterates over the given sequence, Here the program is breaking down the read file 'moby-dick.txt to count the number of 'e' within the file. 
 
+Reference: http://net-informations.com/python/file/split.htm
+
 
 
 # ipyton_log.py
