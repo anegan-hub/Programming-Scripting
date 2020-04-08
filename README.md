@@ -195,7 +195,7 @@ Output:
 
 This program calculates the approximate square root of a positive number by creating a function called 'sqrt'. The formula is based on Newtons Squareroot Method. 
 
-The program runs however the formula is still a working progress as the result is not returning the the answer I what. I have referred to the reference mentioned below to run the program.
+The program runs however the formula is still a working progress as the result is not returning the answer I what. I have referred to the reference video mentioned below to run the program.
 
 Reference https://en.wikipedia.org/wiki/Square_root
 Reference https://www.youtube.com/watch?v=tUFzOLDuvaE
@@ -250,6 +250,8 @@ For loop
 The for loop iterates over the given sequence, Here the program is breaking down the read file 'moby-dick.txt to count the number of 'e' within the file. 
 
 Reference: http://net-informations.com/python/file/split.htm
+
+Reference: http://www.tutorialspoint.com/python3/python_nested_loops.htm
 
 
 
