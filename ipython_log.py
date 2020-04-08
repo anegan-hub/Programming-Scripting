@@ -14,7 +14,7 @@ h = x **3
 # plots g, in the colour blue 'b' with label as "g(x)=x2
 plt.plot(x, g, 'b.', label = "g(x)=x2")  
 
-# plots g, in the colour blue 'r' with label as "(x)=x3"
+# plots g, in the colour blue 'r' with label as "h(x)=x3"
 plt.plot(x, h, 'r.', label = "h(x)=x3")
 
 plt.legend()
