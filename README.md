@@ -195,9 +195,11 @@ Output:
 
 This program calculates the approximate square root of a positive number by creating a function called 'sqrt'. The formula is based on Newtons Squareroot Method. 
 
-The program runs however the formula is still a working progress as the result is not returning the answer I what. I have referred to the reference video mentioned below to run the program.
+The program runs however the formula is still a working progress as the result is not returning the answer I want. I have referred to the reference video mentioned below to run the program.
 
 Reference https://en.wikipedia.org/wiki/Square_root
+
+
 Reference https://www.youtube.com/watch?v=tUFzOLDuvaE
 
 
@@ -219,7 +221,7 @@ To create an argument, you must first import 'sys'. sys is a list of commandline
 
 
 
-Argument
+Argument:
 
 
 
@@ -234,7 +236,7 @@ The program has one argument that calls for the file name to be entered onto the
 If the file name is not input, the report will not run. An Error message will appear on the commandline in this instance. 
 
 
-For loop 
+ Nested For loop: 
 
 
 
@@ -247,7 +249,7 @@ For loop
 
 
 
-The for loop iterates over the given sequence, Here the program is breaking down the read file 'moby-dick.txt to count the number of 'e' within the file. 
+The for loop (outter loop) iterates over the given sequence, along with the nested loops (inner loops). Here the program is breaking down the read file 'moby-dick.txt to count the number of 'e' within the file. 
 
 Reference: http://net-informations.com/python/file/split.htm
 
@@ -275,7 +277,6 @@ import matplotlib.pyplot as plt
 
     h = x **3
 
-
 plt.plot(x, g, 'b.', label = "g(x)=x2") 
 
 plt.plot(x, h, 'r.', label = "h(x)=x3")
@@ -284,8 +285,8 @@ plt.legend()
 
 plt.title("Function Plot")
 
-plt.xlabel("f(x)=x")
+plt.xlabel("Range, f(x)=x")
 
-plt.ylabel("Y")
+plt.ylabel("Comparsion between g(x) and h(x)")
 
 plt.show()
