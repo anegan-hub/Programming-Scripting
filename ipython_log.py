@@ -7,7 +7,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-x = np.linspace(0, 4,)
+x = np.linspace(0, 4)
 g = x **2
 h = x **3
 
@@ -19,7 +19,7 @@ plt.plot(x, h, 'r.', label = "h(x)=x3")
 
 plt.legend()
 plt.title("Function Plot")
-plt.xlabel("f(x)=x")
-plt.ylabel("Y")
+plt.xlabel("Range, f(x)=x")
+plt.ylabel("Comparsion between g(x) and h(x)")
 
 plt.show()
